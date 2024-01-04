@@ -1,0 +1,31 @@
+.contents-Container {
+  background-color: black;
+  padding: 2rem;
+}
+
+.contents__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.contents__items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content__item {
+  width: 15rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.content__item:hover {
+  transform: scale(1.15);
+}
+
+.content__item > img {
+  width: 100%;
+}

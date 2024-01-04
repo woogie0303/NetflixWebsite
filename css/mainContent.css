@@ -1,14 +1,18 @@
+.mainContent-container {
+  height: 50rem;
+}
+
 .mainContent-container > video {
   position: relative;
   width: 100%;
   object-fit: cover;
-  height: 65rem;
+  height: 100%;
 }
 
 .mainContent-informationBox {
   position: absolute;
   width: 60rem;
-  top: 43%;
+  top: 35%;
   transform: translate(5%, -50%);
   padding: 1rem;
 }
