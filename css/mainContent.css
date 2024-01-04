@@ -1,0 +1,45 @@
+.mainContent-container > video {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  height: 65rem;
+}
+
+.mainContent-informationBox {
+  position: absolute;
+  width: 60rem;
+  top: 43%;
+  transform: translate(5%, -50%);
+  padding: 1rem;
+}
+
+.mainContent-informationBox__title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.mainContent-informationBox__button-Wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.mainContent-informationBox__button {
+  color: white;
+  font-size: 1.5rem;
+  width: 10rem;
+  padding: 0.3rem 0;
+  background-color: rgba(211, 197, 197, 0.6);
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease-in;
+}
+
+.mainContent-informationBox__button:hover {
+  background-color: rgb(134, 98, 98);
+}
+
+.mainContent-informationBox__detail {
+  font-size: 1.2rem;
+  color: white;
+}

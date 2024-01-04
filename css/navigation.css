@@ -1,0 +1,31 @@
+.netflix-nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.netflix-nav__logo {
+  width: 10rem;
+}
+
+.netflix-nav__logo > img {
+  width: 100%;
+}
+
+.netflix-nav__user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color: rgba(211, 197, 197, 0.6);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #ffff;
+}
